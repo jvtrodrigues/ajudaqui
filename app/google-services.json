@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "521672568050",
+    "firebase_url": "https://ajudaqui-57f96.firebaseio.com",
+    "project_id": "ajudaqui-57f96",
+    "storage_bucket": "ajudaqui-57f96.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521672568050:android:5fe1a67d3d1b358b58746b",
+        "android_client_info": {
+          "package_name": "br.edu.ifrs.ajudaqui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "521672568050-egcgbbr1hdrjp5d4iqrifq58ld9fr2fr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.edu.ifrs.ajudaqui",
+            "certificate_hash": "0acf2e46da6f4800404184ac5ac8019e3f1b54e8"
+          }
+        },
+        {
+          "client_id": "521672568050-r2co2tghg3o6kahqiv4iur42naid8oko.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.edu.ifrs.ajudaqui",
+            "certificate_hash": "dc3456353769e9016de8bf17215bdaf29f72c5fd"
+          }
+        },
+        {
+          "client_id": "521672568050-vrafedn0fsku2e0h0mj5039251s59pc4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdFA40u5r7_MTQfdKM5gOtZlmx1i8Buhw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "521672568050-vrafedn0fsku2e0h0mj5039251s59pc4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521672568050:android:eade9a60889f47e258746b",
+        "android_client_info": {
+          "package_name": "br.edu.ifrs.poa.ajudaqui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "521672568050-k42rsffrudaeam796f7dg6mrkl7mjo76.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.edu.ifrs.poa.ajudaqui",
+            "certificate_hash": "0acf2e46da6f4800404184ac5ac8019e3f1b54e8"
+          }
+        },
+        {
+          "client_id": "521672568050-vrafedn0fsku2e0h0mj5039251s59pc4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdFA40u5r7_MTQfdKM5gOtZlmx1i8Buhw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "521672568050-vrafedn0fsku2e0h0mj5039251s59pc4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

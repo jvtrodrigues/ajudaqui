@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/opc_tipo_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.ui.criar.conta.CriarContaActivity"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/lbl_opc_enunciado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/opc_enunciado"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="97dp" />
+
+    <Button
+        android:id="@+id/btn_opc_ong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/opc_ong"
+        app:layout_constraintBottom_toBottomOf="@+id/lbl_opc_enunciado"
+        style="@style/botao"/>
+
+    <Button
+        android:id="@+id/btn_opc_solidario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/opc_solidario"
+        app:layout_constraintBottom_toBottomOf="@+id/lbl_opc_enunciado"
+        style="@style/botao"/>
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">AjudAqui</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="welcome_message">Olá! Seja bem-vindo! Por favor, selecione sua situação..</string>
+    <array name="opcoes">
+        <item>Preciso de Ajuda..</item>
+        <item>Quero Ajudar!</item>
+    </array>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="editar">Editar</string>
+    <string name="excluir">Excluir</string>
+    <string name="voltar">Voltar</string>
+    <string name="google_maps_key">AIzaSyBdFA40u5r7_MTQfdKM5gOtZlmx1i8Buhw</string>
+
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Compartilhar</string>
+    <string name="menu_send">Enviar</string>
+    <string name="menu_encontrar_ongs">Encontrar ongs próximas</string>
+    <string name="menu_encontrar_acoes">Encontrar Ações Próximas</string>
+    <string name="menu_busca_ong">Buscar por Ong</string>
+    <string name="menu_buscar_ong">Buscar Por Ong</string>
+    <string name="menu_criar_conta">Criar Minha Conta</string>
+    <string name="menu_sobre_ajudaqui">Sobre</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="opc_solidario">Sou um solidário! Quero Ajudar!</string>
+    <string name="opc_ong">Preciso de ajuda com a minha Ong!</string>
+    <string name="opc_enunciado">Selecione seu tipo de usuário</string>
+    <string name="menu_opc_tipo_usr">Logar/Criar Conta</string>
+    <string name="title_activity_login">Login</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="btnlogin">Logar</string>
+    <string name="title_activity_ong_main">OngMainActivity</string>
+    <string name="nome_ong">Informe o nome da sua Ong</string>
+    <string name="prompt_nome">Nome</string>
+    <string name="prompt_identificador">Identificador</string>
+    <string name="prompt_senha">Senha</string>
+    <string name="btnCadastroOng">Cadastre-me</string>
+</resources>
