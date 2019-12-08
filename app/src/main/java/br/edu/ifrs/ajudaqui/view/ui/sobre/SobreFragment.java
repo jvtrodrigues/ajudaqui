@@ -1,4 +1,4 @@
-package br.edu.ifrs.ajudaqui.view.ui.buscar;
+package br.edu.ifrs.ajudaqui.view.ui.sobre;
 
 
 import android.content.Context;
@@ -16,10 +16,10 @@ import br.edu.ifrs.ajudaqui.view.Origem;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class BuscarOngFragment extends Fragment implements View.OnClickListener {
+public class SobreFragment extends Fragment {
 
 
-    public BuscarOngFragment() {
+    public SobreFragment() {
         // Required empty public constructor
     }
 
@@ -28,22 +28,17 @@ public class BuscarOngFragment extends Fragment implements View.OnClickListener 
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_buscar_ong, container, false);
+        return inflater.inflate(R.layout.fragment_sobre, container, false);
     }
 
     @Override
-    public void onClick(View v) {
-
-    }
-
-    @Override
-    public void onAttach(Context context) {
+    public void onAttach (Context context){
         super.onAttach(context);
-        this.listener = (FragmentListener) context;
+        this.listener = (SobreFragment.FragmentListener) context;
     }
     public static interface FragmentListener {
         void itemClicked(Origem origem, int posicao);
     }
 
-    private FragmentListener listener;
+    private SobreFragment.FragmentListener listener;
 }

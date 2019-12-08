@@ -1,24 +1,30 @@
 package br.edu.ifrs.ajudaqui.domain;
 
 public class Acao {
-    private int _id;
+    private String id;
     private String descricao;
-    private String status;
+    private Status status;
 
-    public Acao(){}
+    public Acao() {
+    }
 
-    public Acao(int _id, String descricao, Status status) {
-        this._id = _id;
+    public Acao(String descricao, Status status) {
         this.descricao = descricao;
-        this.status = status.getDesc();
+        this.status = status;
     }
 
-    public int get_id() {
-        return _id;
+    public Acao(String id, String descricao, Status status) {
+        this.id = id;
+        this.descricao = descricao;
+        this.status = status;
     }
 
-    public void set_id(int _id) {
-        this._id = _id;
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 
     public String getDescricao() {
@@ -30,10 +36,10 @@ public class Acao {
     }
 
     public Status getStatus() {
-        return Status.toEnum(status);
+        return status;
     }
 
     public void setStatus(Status status) {
-        this.status = status.getDesc();
+        this.status = status;
     }
 }

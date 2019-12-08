@@ -29,21 +29,6 @@ public class Solidario extends Usuario {
     }
 
     @Override
-    public void criarConta() {
-
-    }
-
-    @Override
-    public Usuario logar() {
-        return null;
-    }
-
-    @Override
-    public void editarPerfil() {
-
-    }
-
-    @Override
     public String toString() {
         return "Solidario{" +
                 "cpf='" + cpf + '\'' +

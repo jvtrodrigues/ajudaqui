@@ -18,14 +18,12 @@
         android:roundIcon="@drawable/heart_box"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".view.ui.criar.conta.CriarContaActivity"></activity>
+        <activity android:name=".view.ui.editar.EditAcaoActivity"></activity>
+        <activity android:name=".view.ui.criar.conta.CriarContaActivity" />
         <activity
             android:name=".view.OngMainActivity"
-            android:label="@string/title_activity_ong_main"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity
-            android:name=".view.ui.login.LoginActivity"
-            android:label="@string/title_activity_login">
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".view.ui.login.LoginActivity">
             <intent-filter>
                 <category android:name="android.intent.category.LAUNCHER" />
 

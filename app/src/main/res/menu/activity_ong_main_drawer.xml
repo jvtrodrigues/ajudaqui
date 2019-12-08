@@ -9,9 +9,17 @@
             android:icon="@drawable/ic_place_black_24dp"
             android:title="@string/menu_encontrar_acoes" />
         <item
-            android:id="@+id/nav_buscar_ongs"
-            android:icon="@drawable/ic_search_black_24dp"
-            android:title="@string/menu_buscar_ong" />
+            android:id="@+id/nav_listar_ongs"
+            android:icon="@drawable/ic_list_black_24dp"
+            android:title="@string/menu_listar_ong" />
+        <item
+            android:id="@+id/nav_criar_acao"
+            android:icon="@drawable/ic_playlist_add_black_24dp"
+            android:title="@string/menu_criar_acao"/>
+        <item
+            android:id="@+id/nav_listar_acoes"
+            android:icon="@drawable/ic_list_black_24dp"
+            android:title="@string/menu_listar_acoes" />
         <item
             android:id="@+id/nav_sobre"
             android:icon="@drawable/ic_info_black_24dp"
@@ -25,9 +33,9 @@
                 android:icon="@drawable/ic_menu_share"
                 android:title="@string/menu_share" />
             <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="@string/menu_send" />
+                android:id="@+id/nav_log_out"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="@string/menu_sair" />
         </menu>
     </item>
 

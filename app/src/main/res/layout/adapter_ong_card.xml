@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardElevation="4dp">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/textViewNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nome"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email" />
+
+        <TextView
+            android:id="@+id/textviewIdentificador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Identificador" />
+        <TextView
+            android:id="@+id/textViewEndWeb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Endereço Web" />
+        <!--<TextView
+            android:id="@+id/textViewCep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cep" />
+        <TextView
+            android:id="@+id/textViewRua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rua" />
+        <TextView
+            android:id="@+id/textViewNumero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Número" />-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/btnEditar"
+                style="@style/botao"
+                android:src="@drawable/ic_edit_black_24dp"
+                />
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/btnExcluir"
+                style="@style/botao"
+                android:src="@drawable/ic_delete_black_24dp"
+                />
+        </LinearLayout>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.cardview.widget.CardView>

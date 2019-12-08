@@ -9,6 +9,13 @@ public abstract class Usuario {
 
     public Usuario () {}
 
+    public Usuario(String nome, String identificador, String senha, String email) {
+        this.nome = nome;
+        this.identificador = identificador;
+        this.senha = senha;
+        this.email = email;
+    }
+
     public Usuario(String id, String nome, String identificador, String senha, String email) {
         this.id = id;
         this.nome = nome;
@@ -56,8 +63,4 @@ public abstract class Usuario {
     public void setEmail(String email) {
         this.email = email;
     }
-
-    public abstract void criarConta();
-    public abstract Usuario logar();
-    public abstract void editarPerfil();
 }

@@ -2,17 +2,32 @@ package br.edu.ifrs.ajudaqui.domain;
 
 public class Endereco {
     private String id;
-    private String cep;
+    private int cep;
     private String rua;
-    private String numero;
+    private int numero;
+    private String idOng;
 
     public Endereco (){}
 
-    public Endereco(String id, String cep, String rua, String numero) {
+    public Endereco(int cep, String rua, int numero) {
+        this.cep = cep;
+        this.rua = rua;
+        this.numero = numero;
+    }
+
+    public Endereco(int cep, String rua, int numero, String idOng) {
+        this.cep = cep;
+        this.rua = rua;
+        this.numero = numero;
+        this.idOng = idOng;
+    }
+
+    public Endereco(String id, int cep, String rua, int numero, String idOng) {
         this.id = id;
         this.cep = cep;
         this.rua = rua;
         this.numero = numero;
+        this.idOng = idOng;
     }
 
     public String getId() {
@@ -23,11 +38,11 @@ public class Endereco {
         this.id = id;
     }
 
-    public String getCep() {
+    public int getCep() {
         return cep;
     }
 
-    public void setCep(String cep) {
+    public void setCep(int cep) {
         this.cep = cep;
     }
 
@@ -39,12 +54,20 @@ public class Endereco {
         this.rua = rua;
     }
 
-    public String getNumero() {
+    public int getNumero() {
         return numero;
     }
 
-    public void setNumero(String numero) {
+    public void setNumero(int numero) {
         this.numero = numero;
+    }
+
+    public String getIdOng() {
+        return idOng;
+    }
+
+    public void setIdOng(String idOng) {
+        this.idOng = idOng;
     }
 
     @Override

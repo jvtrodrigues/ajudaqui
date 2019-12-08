@@ -54,7 +54,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Não tenho conta :("
-        android:id="@+id/btnNaoTenhoConta"/>
+        android:id="@+id/btnNaoTenhoConta"
+        style="@style/botao"/>
 
 </LinearLayout>
 

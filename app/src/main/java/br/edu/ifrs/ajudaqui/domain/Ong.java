@@ -4,26 +4,64 @@ import java.util.List;
 
 public class Ong extends Usuario {
     private String enderecoWeb;
-    private String area;
-    private Endereco endereco;
+    private AreaOng areaOng;
+    private int cep;
+    private String rua;
+    private int numero;
     List<Acao> acoes = new ArrayList<>();
     List<Avaliacao> avaliacoes = new ArrayList<>();
 
-    public Ong(){}
+    public Ong() {
+    }
 
-    public Ong(String id, String nome, String identificador, String senha, String email, String enderecoWeb, String area, Endereco endereco) {
+    public Ong(String nome, String identificador, String senha, String email, String enderecoWeb, AreaOng areaOng, int cep, String rua, int numero) {
+        super(nome, identificador, senha, email);
+        this.enderecoWeb = enderecoWeb;
+        this.areaOng = areaOng;
+        this.cep = cep;
+        this.rua = rua;
+        this.numero = numero;
+    }
+
+    public Ong(String id, String nome, String identificador, String senha, String email, String enderecoWeb, AreaOng areaOng, int cep, String rua, int numero) {
         super(id, nome, identificador, senha, email);
         this.enderecoWeb = enderecoWeb;
-        this.area = area;
-        this.endereco = endereco;
+        this.areaOng = areaOng;
+        this.cep = cep;
+        this.rua = rua;
+        this.numero = numero;
     }
 
-    public Area getArea() {
-        return Area.toEnum(area);
+    public int getCep() {
+        return cep;
     }
 
-    public void setArea(Area area) {
-        this.area = area.getDesc();
+    public void setCep(int cep) {
+        this.cep = cep;
+    }
+
+    public String getRua() {
+        return rua;
+    }
+
+    public void setRua(String rua) {
+        this.rua = rua;
+    }
+
+    public int getNumero() {
+        return numero;
+    }
+
+    public void setNumero(int numero) {
+        this.numero = numero;
+    }
+
+    public AreaOng getAreaOng() {
+        return areaOng;
+    }
+
+    public void setAreaOng(AreaOng areaOng) {
+        this.areaOng = areaOng;
     }
 
     public String getEnderecoWeb() {
@@ -32,18 +70,6 @@ public class Ong extends Usuario {
 
     public void setEnderecoWeb(String enderecoWeb) {
         this.enderecoWeb = enderecoWeb;
-    }
-
-    public void setArea(String area) {
-        this.area = area;
-    }
-
-    public Endereco getEndereco() {
-        return endereco;
-    }
-
-    public void setEndereco(Endereco endereco) {
-        this.endereco = endereco;
     }
 
     public List<Acao> getAcoes() {
@@ -63,26 +89,13 @@ public class Ong extends Usuario {
     }
 
     @Override
-    public void criarConta() {
-
-    }
-
-    @Override
-    public Usuario logar() {
-        return null;
-    }
-
-    @Override
-    public void editarPerfil() {
-
-    }
-
-    @Override
     public String toString() {
         return "Ong{" +
                 "enderecoWeb='" + enderecoWeb + '\'' +
-                ", area='" + area + '\'' +
-                ", endereco=" + endereco +
+                ", areaOng=" + areaOng +
+                ", cep=" + cep +
+                ", rua='" + rua + '\'' +
+                ", numero=" + numero +
                 ", acoes=" + acoes +
                 ", avaliacoes=" + avaliacoes +
                 '}';

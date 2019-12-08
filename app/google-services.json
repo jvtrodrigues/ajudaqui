@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "521672568050-tqdp2a1i8gm4hs70g9oco9r5u9msjdu5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.edu.ifrs.ajudaqui",
+            "certificate_hash": "5d4988db12d8163b0d341e85e9b37313a057be08"
+          }
+        },
+        {
           "client_id": "521672568050-egcgbbr1hdrjp5d4iqrifq58ld9fr2fr.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
